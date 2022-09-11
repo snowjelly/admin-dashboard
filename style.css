@@ -46,27 +46,92 @@ table {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 6fr;
 }
 
 .sidebar {
   grid-row: span 2;
   background-color: #a78bfa;
   color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+  row-gap: 4rem;
+}
+
+.sidebar .menu > * {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+}
+
+.sidebar .menu > * svg {
+  margin-inline-end: 1rem;
+}
+
+.sidebar .title {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+
+.sidebar .title svg {
+  margin-inline-end: 1rem;
 }
 
 .header .row-1, .header .row-2   {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.header .row-1 .card-user {
+  display: flex;
+  align-items: center;
+}
+
+.header .row-1 .card-user > * {
+  margin: 0.5rem;
 }
 
 .searchbar textarea {
   background-color: #e9d5ff;
-  border-radius: 30px;
+  border-radius: 2rem;
   resize: none;
 }
 
 .main {
   background-color: #f3e8ff;
   display: grid;
+  grid-template-areas: 
+  "projects-header announcements-header"
+  "cards announcements"
+  "cards trending-header"
+  "cards trending";
+}
+
+.projects-header {
+  grid-area: projects-header;
+}
+
+.announcements-header {
+  grid-area: announcements-header;
+}
+
+.cards {
+  grid-area: cards;
+}
+
+.announcements {
+  grid-area: announcements;
+}
+
+.trending-header {
+  grid-area: trending-header;
+}
+
+.trending {
+  grid-area: trending;
 }
