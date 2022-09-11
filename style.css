@@ -1,3 +1,13 @@
 .container {
   display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.sidebar {
+  grid-row: span 2;
+  background-color: #a78bfa;
+}
+
+.sidebar svg {
+  color: white;
 }
