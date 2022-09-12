@@ -81,10 +81,28 @@ table {
   margin-inline-end: 1rem;
 }
 
-.header .row-1, .header .row-2   {
-  display: flex;
+.header .row-1 {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  gap: 8rem;
+}
+
+.header .row-1 .searchbar {
+  display: grid;
+  grid-template-columns: min-content 1fr;
   align-items: center;
-  justify-content: center;
+  gap: 1rem ;
+}
+
+.searchbar svg {
+  margin-left: 3rem;
+}
+
+.searchbar textarea {
+  background-color: #e9d5ff;
+  border-radius: 2rem;
+  resize: none;
+  justify-items: center;
 }
 
 .header .row-1 .card-user {
@@ -92,14 +110,35 @@ table {
   align-items: center;
 }
 
-.header .row-1 .card-user > * {
-  margin: 0.5rem;
+.header .row-2 {
+  display: grid;
+  align-items: center;
+  grid-template-columns: min-content max-content 1fr;
+  margin-bottom: 1rem;
 }
 
-.searchbar textarea {
-  background-color: #e9d5ff;
-  border-radius: 2rem;
-  resize: none;
+.header .row-2 img {
+  margin-left: 3rem;
+  margin-right: 0.5rem;
+}
+
+.header .row-2 .card {
+  margin-inline: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .row-2 .card p {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.header .row-2 .card p:nth-child(2) {
+  font-size: 1.4rem;
+}
+
+.header .row-2 .buttons {
+  justify-self: flex-end;
 }
 
 .main {
