@@ -121,19 +121,13 @@ table {
   grid-template-columns: min-content max-content 1fr;
 }
 
-.header .row-2 img {
-  margin-right: 0.5rem;
-}
-
 .header .row-2 .card {
-  margin-inline: 0.5rem;
   display: flex;
   flex-direction: column;
 }
 
 .header .row-2 .card p {
   font-weight: 700;
-  margin-bottom: 0.2rem;
 }
 
 .header .row-2 .card p:nth-child(2) {
