@@ -114,12 +114,13 @@ table {
 .header .row-1 .card-user {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 .header .row-2 {
   display: grid;
   align-items: center;
-  grid-template-columns: min-content max-content 1fr;
+  grid-template-columns: min-content 1fr;
 }
 
 .header .row-2 .card {
@@ -133,6 +134,7 @@ table {
   flex-direction: column;
   justify-content: center;
   width: max-content;
+  gap: 0.2rem;
 }
 
 .header .row-2 .card p {
@@ -145,8 +147,9 @@ table {
 
 .header .row-2 .buttons {
   display: flex;
-  gap: 1rem;
   flex-direction: row;
+  gap: 1rem;
+  justify-self: end;
 }
 
 .main {
