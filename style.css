@@ -96,8 +96,7 @@ table {
 }
 
 .header .row-1 .searchbar {
-  display: grid;
-  grid-template-columns: min-content 1fr;
+  display: flex;
   align-items: center;
   gap: 1rem;
 }
@@ -107,7 +106,9 @@ table {
   border-radius: 2rem;
   resize: none;
   justify-items: center;
+  flex: 1;
   border: 0;
+  margin: 0;
 }
 
 .header .row-1 .card-user {
