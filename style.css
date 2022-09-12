@@ -78,7 +78,7 @@ table {
 }
 
 .sidebar .title svg {
-  margin-inline-end: 1rem;
+  margin-right: 1rem;
 }
 
 .header {
@@ -87,7 +87,6 @@ table {
   margin-top: 1rem;
   margin-bottom: 1rem;
   gap: 1rem;
-  box-shadow: 1px -1px 5px -1px #4c1d95;
 }
 
 .header .row-1 {
