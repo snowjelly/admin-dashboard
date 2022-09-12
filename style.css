@@ -81,6 +81,14 @@ table {
   margin-inline-end: 1rem;
 }
 
+.header {
+  display: grid;
+  margin-inline: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
 .header .row-1 {
   display: grid;
   grid-template-columns: 1fr min-content;
@@ -91,11 +99,7 @@ table {
   display: grid;
   grid-template-columns: min-content 1fr;
   align-items: center;
-  gap: 1rem ;
-}
-
-.searchbar svg {
-  margin-left: 3rem;
+  gap: 1rem;
 }
 
 .searchbar textarea {
@@ -103,6 +107,7 @@ table {
   border-radius: 2rem;
   resize: none;
   justify-items: center;
+  border: 0;
 }
 
 .header .row-1 .card-user {
@@ -114,11 +119,9 @@ table {
   display: grid;
   align-items: center;
   grid-template-columns: min-content max-content 1fr;
-  margin-bottom: 1rem;
 }
 
 .header .row-2 img {
-  margin-left: 3rem;
   margin-right: 0.5rem;
 }
 
