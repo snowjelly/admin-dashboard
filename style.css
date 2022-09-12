@@ -121,6 +121,7 @@ table {
   display: grid;
   align-items: center;
   grid-template-columns: min-content 1fr;
+  gap: 1rem;
 }
 
 .header .row-2 .card {
@@ -150,6 +151,15 @@ table {
   flex-direction: row;
   gap: 1rem;
   justify-self: end;
+}
+
+.header .row-2 .buttons button {
+  background-color: #a78bfa;
+  border: 0;
+  border-radius: 2rem;
+  padding-inline: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .main {
