@@ -254,3 +254,9 @@ table {
   display: grid;
   grid-template-columns: max-content;
 }
+
+.trending .user {
+  display: grid;
+  grid-template-columns: min-content max-content;
+}
+
