@@ -151,7 +151,7 @@ table {
 
 .header .row-2 .buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: minmax(max-content, 1fr) minmax(max-content, 1fr) minmax(max-content, 1fr);
   gap: 1rem;
   justify-self: end;
   align-self: center;
