@@ -186,11 +186,13 @@ table {
 .projects-header {
   grid-area: projects-header;
   font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .announcements-header {
   grid-area: announcements-header;
   font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .cards {
@@ -211,11 +213,18 @@ table {
   padding: 1rem;
 }
 
+.main .cards .card .card-header {
+  align-self: end;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
 .main .cards .card .icons {
   display: grid;
   grid-template-columns: repeat(3, min-content);
   gap: 1rem;
   justify-content: end;
+  align-items: center;
 }
 
 .announcements {
@@ -225,6 +234,7 @@ table {
 .trending-header {
   grid-area: trending-header;
   font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .trending {
