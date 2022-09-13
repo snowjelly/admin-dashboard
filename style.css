@@ -175,14 +175,20 @@ table {
   "cards announcements"
   "cards trending-header"
   "cards trending";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr min-content 1fr;
+  padding-top: 2rem;
+  padding-inline: 1rem;
 }
 
 .projects-header {
   grid-area: projects-header;
+  font-size: 1.2rem;
 }
 
 .announcements-header {
   grid-area: announcements-header;
+  font-size: 1.2rem;
 }
 
 .cards {
@@ -195,6 +201,7 @@ table {
 
 .trending-header {
   grid-area: trending-header;
+  font-size: 1.2rem;
 }
 
 .trending {
