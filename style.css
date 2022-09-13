@@ -178,7 +178,6 @@ table {
   "cards trending-header"
   "cards trending";
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: min-content min-content min-content min-content;
   padding-top: 2rem;
   padding-inline: 1rem;
   padding-bottom: 3rem;
@@ -245,7 +244,6 @@ table {
   clip-path: inset(0px 0px -15px 0px);
   border-radius: 7px;
   display: grid;
-  grid-template-rows: repeat(3, min-content);
 }
 
 .announcements .card:nth-child(even) {
@@ -294,7 +292,6 @@ table {
 .trending .user {
   display: grid;
   grid-template-columns: min-content max-content;
-  grid-template-rows: min-content min-content;
   align-items: center;
   column-gap: 0.5rem;
 }
