@@ -240,6 +240,13 @@ table {
   box-shadow: 0 0 15px #ddd6fe;
   clip-path: inset(0px 0px -15px 0px);
   border-radius: 7px;
+  display: grid;
+  gap: 1rem;
+}
+
+.announcements .card:nth-child(even) {
+  border-top: 1px solid #f3e8ff;
+  border-bottom: 1px solid #f3e8ff;
 }
 
 .trending-header {
