@@ -176,7 +176,7 @@ table {
   "cards trending-header"
   "cards trending";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: min-content 1fr min-content min-content;
+  grid-template-rows: min-content min-content min-content min-content;
   padding-top: 2rem;
   padding-inline: 1rem;
   padding-bottom: 3rem;
@@ -210,7 +210,7 @@ table {
   border-left: 10px solid #be123c;
   border-radius: 7px;
   display: grid;
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: 0 0 15px #ddd6fe;
   clip-path: inset(0px 0px -15px 0px);
 }
@@ -241,12 +241,21 @@ table {
   clip-path: inset(0px 0px -15px 0px);
   border-radius: 7px;
   display: grid;
-  gap: 1rem;
 }
 
 .announcements .card:nth-child(even) {
   border-top: 1px solid #f3e8ff;
   border-bottom: 1px solid #f3e8ff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.announcements .card:nth-child(1) {
+  padding-bottom: 1rem;
+}
+
+.announcements .card:nth-child(3) {
+  padding-top: 1rem;
 }
 
 .trending-header {
