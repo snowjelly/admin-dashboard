@@ -179,6 +179,8 @@ table {
   grid-template-rows: min-content 1fr min-content 1fr;
   padding-top: 2rem;
   padding-inline: 1rem;
+  padding-bottom: 3rem;
+  gap: 1rem;
 }
 
 .projects-header {
@@ -200,6 +202,20 @@ table {
 
 .main .card {
   background-color: white;
+}
+
+.main .cards .card {
+  border-left: 10px solid #be123c;
+  border-radius: 7px;
+  display: grid;
+  padding: 1rem;
+}
+
+.main .cards .card .icons {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  gap: 1rem;
+  justify-content: end;
 }
 
 .announcements {
