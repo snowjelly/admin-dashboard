@@ -118,6 +118,7 @@ table {
   display: flex;
   align-items: center;
   gap: 1rem;
+  font-weight: 700;
 }
 
 .header .row-2 {
@@ -158,6 +159,7 @@ table {
 }
 
 .header .row-2 .buttons button {
+  color: white;
   background-color: #a78bfa;
   border: 0;
   border-radius: 2rem;
