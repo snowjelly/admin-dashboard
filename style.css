@@ -178,6 +178,7 @@ table {
   "cards trending-header"
   "cards trending";
   grid-template-columns: 3fr 1fr;
+  grid-template-rows: min-content 1fr min-content 1fr;
   padding-top: 2rem;
   padding-inline: 1rem;
   padding-bottom: 3rem;
