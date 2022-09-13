@@ -233,6 +233,9 @@ table {
   grid-area: announcements;
   padding: 2rem;
   background-color: white;
+  box-shadow: 0 0 15px #ddd6fe;
+  clip-path: inset(0px 0px -15px 0px);
+  border-radius: 7px;
 }
 
 .trending-header {
@@ -243,4 +246,9 @@ table {
 
 .trending {
   grid-area: trending;
+  box-shadow: 0 0 15px #ddd6fe;
+  background-color: white;
+  clip-path: inset(0px 0px -15px 0px);
+  border-radius: 7px;
+  padding: 2rem;
 }
