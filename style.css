@@ -87,6 +87,8 @@ table {
   padding-top: 1rem;
   padding-bottom: 1rem;
   gap: 1rem;
+  box-shadow: 0 0 15px #ddd6fe;
+  clip-path: inset(0px 0px -15px 0px);
 }
 
 .header .row-1 {
