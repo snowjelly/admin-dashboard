@@ -204,6 +204,8 @@ table {
 
 .main .card {
   background-color: white;
+  box-shadow: 0 0 15px #ddd6fe;
+  clip-path: inset(0px 0px -15px 0px);
 }
 
 .main .cards .card {
