@@ -204,8 +204,6 @@ table {
 
 .main .card {
   background-color: white;
-  box-shadow: 0 0 15px #ddd6fe;
-  clip-path: inset(0px 0px -15px 0px);
 }
 
 .main .cards .card {
@@ -213,6 +211,8 @@ table {
   border-radius: 7px;
   display: grid;
   padding: 1rem;
+  box-shadow: 0 0 15px #ddd6fe;
+  clip-path: inset(0px 0px -15px 0px);
 }
 
 .main .cards .card .card-header {
@@ -231,6 +231,8 @@ table {
 
 .announcements {
   grid-area: announcements;
+  padding: 2rem;
+  background-color: white;
 }
 
 .trending-header {
