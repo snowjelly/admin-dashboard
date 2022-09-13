@@ -176,7 +176,7 @@ table {
   "cards trending-header"
   "cards trending";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: min-content 1fr min-content 1fr;
+  grid-template-rows: min-content 1fr min-content min-content;
   padding-top: 2rem;
   padding-inline: 1rem;
   padding-bottom: 3rem;
@@ -213,6 +213,10 @@ table {
   padding: 1rem;
   box-shadow: 0 0 15px #ddd6fe;
   clip-path: inset(0px 0px -15px 0px);
+}
+
+.main .cards .card > p:nth-child(2) {
+  color: #701a75;
 }
 
 .main .cards .card .card-header {
@@ -252,11 +256,23 @@ table {
   border-radius: 7px;
   padding: 2rem;
   display: grid;
-  grid-template-columns: max-content;
+  grid-template-columns: min-content;
+  grid-template-rows: repeat(4, min-content);
+  gap: 1rem;
 }
 
 .trending .user {
   display: grid;
   grid-template-columns: min-content max-content;
+  grid-template-rows: min-content min-content;
+  align-items: center;
+  column-gap: 0.5rem;
 }
 
+.trending .user img {
+  grid-row: span 2;
+}
+
+.trending .user .project {
+  color: #701a75;
+}
