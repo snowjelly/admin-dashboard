@@ -58,25 +58,27 @@ table {
   font-size: 1.2rem;
   font-weight: 300;
   display: grid;
-  grid-template-rows: min-content min-content min-content;
-  row-gap: 1rem;
+  grid-template-rows: auto auto 1fr;
+  padding: 1rem;
+}
+
+.sidebar .menu ul {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .sidebar .menu li {
   display: flex;
-  margin: 2rem;
   align-items: center;
-}
-
-.sidebar .menu li svg {
-  margin-inline-end: 1rem;
+  gap: 1rem;
 }
 
 .sidebar .title {
   display: flex;
   font-size: 1.5rem;
   font-weight: 400;
-  margin: 1rem;
   align-items: center;
 }
 
