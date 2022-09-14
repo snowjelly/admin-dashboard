@@ -248,21 +248,6 @@ table {
   align-items: center;
 }
 
-.announcements .card:nth-child(even) {
-  border-top: 1px solid #f3e8ff;
-  border-bottom: 1px solid #f3e8ff;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.announcements .card:nth-child(1) {
-  padding-bottom: 1rem;
-}
-
-.announcements .card:nth-child(3) {
-  padding-top: 1rem;
-}
-
 .announcements .card > p:nth-child(1) {
   font-weight: 700;
   font-size: 0.9rem;
