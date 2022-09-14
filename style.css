@@ -237,7 +237,7 @@ table {
   align-items: center;
 }
 
-.announcements {
+.announcement-content {
   grid-area: announcements;
   padding: 2rem;
   background-color: white;
@@ -248,12 +248,12 @@ table {
   align-items: center;
 }
 
-.announcements .card > p:nth-child(1) {
+.announcement-content .card > p:nth-child(1) {
   font-weight: 700;
   font-size: 0.9rem;
 }
 
-.announcements .card > p:nth-child(2) {
+.announcement-content .card > p:nth-child(2) {
   font-size: 0.8rem;
 }
 
