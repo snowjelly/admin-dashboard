@@ -49,6 +49,7 @@ table {
 .container {
   display: grid;
   grid-template-columns: 1fr 6fr;
+  min-height: 100vh;
 }
 
 .sidebar {
@@ -242,7 +243,8 @@ table {
 .cards {
   grid-area: cards;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto 1fr 1fr;
   gap: 2rem;
 }
 
@@ -250,6 +252,7 @@ table {
   background-color: white;
   display: grid;
   gap: 0.2rem;
+  grid-template-rows: min-content min-content min-content;
 }
 
 .main .cards .card {
