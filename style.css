@@ -265,6 +265,11 @@ table {
   font-size: 0.8rem;
 }
 
+.announcement-border {
+  height: 1px;
+  background-color: #f3e8ff;
+}
+
 .trending-header {
   grid-area: trending-header;
   font-size: 1.4rem;
