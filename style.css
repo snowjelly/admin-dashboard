@@ -124,6 +124,14 @@ table {
   font-weight: 700;
 }
 
+.card-user > * {
+  cursor: pointer;
+}
+
+.pfp {
+  border-radius: 50%;
+}
+
 .header .row-2 {
   display: grid;
   align-items: center;
