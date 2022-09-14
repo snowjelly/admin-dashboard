@@ -259,6 +259,12 @@ table {
   padding: 2rem;
   box-shadow: 0 0 15px #ddd6fe;
   clip-path: inset(0px 0px -15px 0px);
+  gap: 1rem;
+}
+
+.main .cards .card:hover {
+  transition: 0.5s;
+  transform: scale(1.03);
 }
 
 .main .card > p:nth-child(2) {
