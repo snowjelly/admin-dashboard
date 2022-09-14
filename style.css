@@ -87,6 +87,14 @@ table {
   border-bottom: 2px solid white;
 }
 
+.sidebar .menu li p:active {
+  transform: scale(0.97);
+}
+
+.sidebar .menu li svg:active ~ p {
+  transform: scale(0.97);
+}
+
 .sidebar .title {
   display: flex;
   font-size: 1.5rem;
