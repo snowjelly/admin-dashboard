@@ -172,6 +172,11 @@ table {
   min-width: 33%;
   font-weight: 700;
   font-size: 1.03rem;
+  cursor: pointer;
+}
+
+.buttons button:active {
+  transform: scale(0.95);
 }
 
 .main {
