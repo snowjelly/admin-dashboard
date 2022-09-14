@@ -245,6 +245,7 @@ table {
   clip-path: inset(0px 0px -15px 0px);
   border-radius: 7px;
   display: grid;
+  align-items: center;
 }
 
 .announcements .card:nth-child(even) {
