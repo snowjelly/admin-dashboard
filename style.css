@@ -75,11 +75,27 @@ table {
   gap: 1rem;
 }
 
+.sidebar .menu li > * {
+  cursor: pointer;
+}
+
+.sidebar .menu li svg:hover ~ p {
+  border-bottom: 2px solid white;
+}
+
+.sidebar .menu li p:hover {
+  border-bottom: 2px solid white;
+}
+
 .sidebar .title {
   display: flex;
   font-size: 1.5rem;
   font-weight: 400;
   align-items: center;
+}
+
+.sidebar .title > * {
+  cursor: pointer;
 }
 
 .sidebar .title svg {
