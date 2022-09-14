@@ -57,7 +57,7 @@ table {
   font-weight: 300;
   display: grid;
   grid-template-rows: min-content min-content min-content;
-  row-gap: 4rem;
+  row-gap: 1rem;
 }
 
 .sidebar .menu > * {
