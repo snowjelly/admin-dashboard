@@ -248,12 +248,12 @@ table {
   align-items: center;
 }
 
-.announcements-content .card > p:nth-child(1) {
+.announcements-content .announcement > p:nth-child(1) {
   font-weight: 700;
   font-size: 0.9rem;
 }
 
-.announcements-content .card > p:nth-child(2) {
+.announcements-content .announcement > p:nth-child(2) {
   font-size: 0.8rem;
 }
 
