@@ -170,6 +170,8 @@ table {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; 
   min-width: 33%;
+  font-weight: 700;
+  font-size: 1.03rem;
 }
 
 .main {
