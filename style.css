@@ -279,6 +279,10 @@ table {
   align-items: center;
 }
 
+.icons > * {
+  cursor: pointer;
+}
+
 .announcement-container {
   grid-area: announcements;
   padding: 2rem;
