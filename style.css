@@ -62,13 +62,13 @@ table {
   row-gap: 1rem;
 }
 
-.sidebar .menu > * {
+.sidebar .menu li {
   display: flex;
   margin: 2rem;
   align-items: center;
 }
 
-.sidebar .menu > * svg {
+.sidebar .menu li svg {
   margin-inline-end: 1rem;
 }
 
