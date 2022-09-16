@@ -252,7 +252,6 @@ table {
   background-color: white;
   display: grid;
   gap: 0.2rem;
-  grid-template-rows: min-content min-content min-content;
 }
 
 .main .cards .card {
